@@ -24,7 +24,7 @@ Install required packages using pip:
 
 Run the `main.py` program, it will do the follow:
 
-* Download files .xls with salary information from CNJ's [CNJ's](http://www.cnj.jus.br/transparencia/remuneracao-dos-magistrados) and save in directory `/data`.
+* Download files .xls with salary information from CNJ's [page](http://www.cnj.jus.br/transparencia/remuneracao-dos-magistrados) and save in directory `/data`.
 * Read files using pandas, extract, prepare and store data in sqlite database file `judiciario.db` creating the follow tables:
   - contracheque
   - subsidio
@@ -36,8 +36,8 @@ Note: each table have data from all files.
 
 After run `main.py` you are prepared to do your analysis 
 
-# Make your analysis
-https://superset.incubator.apache.org/
+# Make your own analysis
+
 There is a jupyter notebook file with a example of how read data from database and make some analysis, feel free to make your own and commit it!
 
 # How to contribute
@@ -48,7 +48,10 @@ There is a jupyter notebook file with a example of how read data from database a
 
 # Superset dashboards
 
-If you want to use superset to make dashboards, there is a example of dashboard on `/dashboards` folder. More information about Superset can be found [here](https://superset.incubator.apache.org/).
+If you want to use Apache Superset to make dashboards, there is a example of dashboard on `/dashboards` folder, you can import it. More information about Superset can be found [here](https://superset.incubator.apache.org/).
+
+![figura1](https://raw.githubusercontent.com/romulomadu/juizo/master/superset_example.png)
+
 
 
   
