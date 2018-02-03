@@ -50,7 +50,7 @@ There is a jupyter notebook file with a example of how read data from database a
 
 If you want to use Apache Superset to make dashboards, there is a example of dashboard on `/dashboards` folder, you can import it. More information about Superset can be found [here](https://superset.incubator.apache.org/).
 
-![figura1](https://raw.githubusercontent.com/romulomadu/juizo/master/superset_example.png)
+![figura1](superset_example.png)
 
 
 
