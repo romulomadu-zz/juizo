@@ -46,6 +46,8 @@ There is a jupyter notebook file with a example of how read data from database a
 - You can make analysis in notebook and send it.
 - Feel free to create you own crawler for extract adittional data from judiciary pages, news, etc.
 
+__Note__: If you don't no how to make version control with jupyter notebook, you can look this repo [here](https://github.com/toobaz/ipynb_output_filter), or you can use nbdime, see [here](https://github.com/jupyter/nbdime)
+
 # Superset dashboards
 
 If you want to use Apache Superset to make dashboards, there is a example of dashboard on `/dashboards` folder, you can import it. More information about Superset can be found [here](https://superset.incubator.apache.org/).
