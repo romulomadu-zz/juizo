@@ -3,7 +3,6 @@ import pandas as pd
 import sqlite3
 import re
 import unidecode
-import matplotlib.pyplot as plt
 from glob import glob
 from tqdm import tqdm
 from bs4 import BeautifulSoup
@@ -29,7 +28,7 @@ def fit_filename(text):
 
     '''
 
-    # Decode and fill blank spaces with underscore 
+    # Decode and fill blank spaces with underscore  
     text = unidecode.unidecode(text)
     text = re.sub(' ','_',text)
     
