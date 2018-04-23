@@ -8,7 +8,7 @@ Analyse data information about Judiciary employees salaries, searching for irreg
 
 # Key Words
 
-judiciary, corruption, salary, social control
+judiciary, corruption, salary, social control, magistrados, salários, Brazil, Brasil, corrupção, benefícios
 
 # Instructions
 
