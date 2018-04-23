@@ -1,4 +1,5 @@
 *.xls
+*.xls#
 *.db
 .ipynb_checkpoints
 __pycache__	
